@@ -10,8 +10,9 @@ const Home = () => {
     <div className='container'>
       <Topbar />
         <HomeContent />
-        <MainLogin/>
+       
       <Footer />
+      {/* <MainLogin/>/ */}
     </div>
   )
 }
