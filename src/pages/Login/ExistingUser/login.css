@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 80%;
+    margin-top: 20px ;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #e100ff;
+    outline: none;
+    font-size: 15px;
+}
+.Form_container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+h2,button{
+    background-color: #ff00d4;
+    padding: 10px;
+    color: white;
+    
+}
+button{
+    border: 1px solid #ff00d4 ;
+    border-radius: 20px;
+   
+    margin-top: 20px;
+    width: 70%;
+}

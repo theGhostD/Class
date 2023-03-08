@@ -1,0 +1,17 @@
+.homeContent{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner{
+    width: 100%;
+}
+
+.bannerImg{
+    width: 100%;
+    height: 580px;
+    opacity: 0.9;
+    object-fit: cover;
+}

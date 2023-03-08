@@ -1,0 +1,32 @@
+.footerCont{
+background-color: rgb(249, 249, 249);
+height: 300px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 30px;
+}
+
+.left{
+    margin-left: 5%;
+}
+
+.leftTitle{
+    font-size: '19px';
+    font-weight: 500;
+}
+
+.leftList{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.listItem{
+    color: gray;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
